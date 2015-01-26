@@ -1,0 +1,9 @@
+{
+    "name": "protractor-cucumber-example",
+    "version": "0.1.0",
+    "dependencies": {},
+    "devDependencies" : {
+        "chai": "latest",
+        "chai-as-promised": "latest"
+    }
+}

@@ -23,8 +23,8 @@ ln -sf "/usr/bin/nodejs" "/usr/bin/node" # Ubuntu.
 # Node.js dependencies.
 cd $shared_dir
 # @todo Vagrant fails when using package.json
-npm install -g `cat $shared_dir/vm/npm-global-packages.txt|egrep -v "#"`
-npm install `cat $shared_dir/vm/npm-local-packages.txt|egrep -v "#"`
+npm install -g `cat $shared_dir/vm/npm-packages.txt|egrep -v "#"`
+npm install
 
 if [ $? -ne 0 ]; then
     echo "NPM failed."; exit 7

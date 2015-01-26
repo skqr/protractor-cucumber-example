@@ -1,3 +1,0 @@
-# Assertions
-chai
-chai-as-promised
