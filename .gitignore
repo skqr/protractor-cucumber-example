@@ -1,0 +1,6 @@
+# Vagrant
+.vagrant
+.bash_history
+
+# NPM
+node_modules

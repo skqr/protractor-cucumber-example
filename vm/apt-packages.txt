@@ -1,0 +1,10 @@
+# Node.js
+nodejs
+npm
+git
+
+# Selenium
+default-jdk
+xvfb
+chromium-browser
+# firefox # Runs out of memory.
